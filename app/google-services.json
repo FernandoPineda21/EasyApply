@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "90660101647",
+    "firebase_url": "https://easyapply-9fc11.firebaseio.com",
+    "project_id": "easyapply-9fc11",
+    "storage_bucket": "easyapply-9fc11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90660101647:android:0a0b75b76effa18b",
+        "android_client_info": {
+          "package_name": "com.example.easyapply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90660101647-dm0mt5vn50k81e24f422vflchfdv61gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nSj-aurcqqjSN6xWUZSuFjn1LZ0EmgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90660101647-dm0mt5vn50k81e24f422vflchfdv61gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

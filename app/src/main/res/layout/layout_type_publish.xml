@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutpublish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_marginBottom="@dimen/minimo"
+    app:cardCornerRadius="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_marginLeft="@dimen/minimo"
+                android:layout_marginRight="@dimen/minimo"
+                android:id="@+id/txtuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Nombre Usuario..." />
+            <TextView
+                android:id="@+id/textviewlocalidad"
+                android:layout_marginLeft="@dimen/minimo"
+                android:layout_marginRight="@dimen/minimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localidad..."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5">
+
+            <ImageView
+                android:id="@+id/imageviewpicpublished"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                android:src="@mipmap/ic_launcher_round" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/minimo"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonlikes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle"
+                android:layout_margin="4dp"
+                android:text="Likes" />
+
+            <Button
+                android:id="@+id/buttoncoment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="COMMENT" />
+
+            <Button
+                android:id="@+id/buttonshar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Share"
+                />
+            <Button
+                android:id="@+id/buttonlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="M"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:layout_marginLeft="@dimen/minimo"
+            android:layout_marginRight="@dimen/minimo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textviewlikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="0 " />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Likes"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    >
+                <TextView
+                    android:id="@+id/textviewtotalcomments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="0"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint=" Comments"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtdescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:hint="Description..."
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
